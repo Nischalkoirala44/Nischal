@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #underline{
+            text-decoration: underline;
+            color: #EE4E4E;
+        }
+
+    </style>
+
+    <section id="HOME">
+    <div id="navBar">
+        <nav>
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#PHOTOAPP">PHOTOAPP</a></li>
+                <li><a href="#HOME"><i id="icon" class="fa-solid fa-camera"></i></a></li>
+                <li><a href="#DESIGN">DESIGN</a></li>
+                <li><a href="#DOWNLOAD">DOWNLOAD</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+        <div class="started">
+        <h2 class="heading1">YOUR LIFE, A PHOTO</h2>
+        <p class="p1">print your life in a simple photo</p>
+        </div>
+
+        <div class="started">
+            <button class="btn1"><a>GET STARTED</a></button>
+        </div>
+            
+        <div class="started">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-flickr"></i>
+            <i class="fa-solid fa-globe"></i>
+        </div>
+    </section>
+
+    <section id="PHOTOAPP">
+        <div class="container1">
+            <div class="photo-app">
+                <h2 class="heading4">PRESENT YOUR LIFE WITH A SIMPLE PHOTO.</h2>
+
+                <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Assumenda, nesciunt omnis ipsum nisi, voluptas aliquam amet ea
+                doloremque explicabo commodi totam provident facere numquam!
+                Dolorem iste nulla fugiat quo id.</p>
+
+                <div class="started">
+                    <button class="btn1"><a>GET STARTED</a></button>
+                </div>
+
+                
+
+            </div>
+            <div>
+                <img src="349711297090211.png" height="520">
+            </div>
+        </div>
+    </section>
+
+    <section id="DESIGN">
+        <div class="container2">
+            <div class="video">
+            <video height="500" loop autoplay muted>
+                <source src="photography.mp4" type="video/mp4">
+            </video>
+            </div>
+
+            <div class="paragraph-zone">
+                <h1 class="heading4">DESIGN</h1>
+                <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis quod enim maiores quaerat nisi quasi sed, labore quisquam
+                neque sapiente fuga at maxime ea est corporis ipsa dolorum tempora doloremque.</p>
+                <div class="started">
+                    <button class="btn1">Learn more</button>
+                </div> 
+        </div>
+        </div>
+
+        <div class="container3">
+            <div>
+                <li><a href="#HOME"><i id="icon2" class="fa-solid fa-camera"></i></a></li>
+                <h3 class="heading2">
+                    OUR COMMUNITY
+                </h3>
+                <p class="p3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eaque id maxime unde consequatur nisi modi sapiente harum
+                et delectus ratione? Necessitatibus facere culpa quos quod
+                distinctio, officia voluptates provident voluptatem?
+                </p>
+            </div>
+
+            <div class="image">
+                <img src="2033.jpeg" height="400">
+            </div>
+            <div class="image">
+                <img src="naruto.jpeg" height="400">
+            </div>
+        </div>
+        </div>
+        <br>
+
+        <div id="background-div">
+            
+            <div class="child">
+                <h2 class="h1">SUSCRIBE TO OUR COMMUNITY</h2>
+            <form class="f">
+                <input type="text" id="text-field" onclick="clearField()" value="YOUR EMAIL" required>
+                <input type="submit" class="btn2" value="✔️" onclick="message()">
+            </form>
+        </div>
+        </div>
+
+    <section id="DOWNLOAD">
+        <div class="container4">
+            <h3 class="heading2">
+                DOWNLOAD IT
+            </h3>
+            <p class="p3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique quo illo laudantium adipisci quasi obcaecati, ducimus sapiente?
+                Repudiandae, voluptatem placeat. Nostrum sapiente odio, doloremque ipsa quis
+                necessitatibus fuga autem quia?
+            </p>
+
+            <div class="buttons">
+                <div class="b1"><button class="btn-logo1">APPLE STORE<button class="btn-logo2"><i class="fa-brands fa-apple" id="icon3"></i></button></button></div>
+                <div class="b2"><button class="btn-logo1">PLAY STORE<button class="btn-logo2"><i class="fa-brands fa-apple" id="icon3"></i></button></button></div>
+            </div>
+        </div>
+
+        <div class="container5">
+            <div class="small-container1">
+                <div class="small-container2">
+                    <h1 class="heading5">CREDIT</h1>
+                    <h1 class="heading5">|</h1>
+                    <h1 class="heading5">PRIVACY</h1>
+                    <h1 class="heading5">|</h1>
+                    <h1 class="heading5">OUR TEAMS</h1>
+                </div>
+                    <div>
+                        <p class="p5">Copyright by phototime - all rights reserved</p>  
+                    </div>
+            </div>
+            
+
+
+            <div class="div-icon">
+                <i id="icon" class="fa-solid fa-camera"></i>
+            </div>
+            </div>
+    </section>
+
+    <script>
+        function clearField() {
+    document.getElementById('text-field').value = '';
+}
+
+        function message(){
+    let form = document.getElementById('text-field');
+    
+    try{
+        if(form.value == "") throw alert(err.message);
+        alert("You suscribed successfully.");
+    } catch(err){
+        err.message;
+    }
+    finally{
+        document.getElementById('text-field').value = "";
+    }
+}
+        function under(){
+        let style = document.getElementById('underline');
+        style.style.textDecoration = 'underline';
+        }
+
+
+
+    </script>
+
+</body>
+</html>

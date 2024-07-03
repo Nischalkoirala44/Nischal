@@ -1,0 +1,268 @@
+/*For Background image*/
+body{
+    background-color: aliceblue;
+}
+#HOME{
+    background-image: url("background.avif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/*Navigation Bar*/
+#navBar{
+    padding: 80px;
+}
+#navBar nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    list-style-type: none;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#icon{
+    font-size: 55px;
+}
+
+/*This is for home page*/
+.heading1, .p1, .started{
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.heading1{
+    font-size: 3.5rem;
+}
+.p1{
+    font-size: 1.5rem;
+}
+i{
+    display: inline-block;
+    font-size: 35px;
+    padding-right: 25px;
+}
+.btn1{
+    border: none;
+    background-color: #059212;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    width: 160px;
+}
+.started .btn1{
+    margin-top: 15px;
+}
+.started{
+    margin-top: 4%;
+    color: white;
+}
+.started i{
+    padding-bottom: 70px;
+}
+li, a, .heading1, .heading4, .btn1{
+    font-weight: bold;
+    color: white;
+}
+
+/*Photo App section*/
+#PHOTOAPP{
+    background-color: #E6B9A6;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10% 0 0;
+}
+.heading4, .p2{
+    text-align: center;
+    color: #059212;
+    font-weight: bold;
+}
+.heading4{
+    font-size: 45px;
+}
+.p2{
+    font-size: 25px;
+}
+.photo-app{
+    margin: 0 15% 0 15%;
+}
+/*Desion*/
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+    background-color: #E6E6FA;
+    
+}
+.video{
+    padding: 2%;
+}
+.paragraph-zone{
+    padding: 3% 10% 0 10%;
+}
+#icon2{
+    color: black;
+    font-size: 50px;
+    padding-top: 5%;
+    padding-left: 40%;
+}
+.image{
+    border: black solid 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F5E7B2;
+}
+.heading2{
+    text-align: center;
+    color: #2E8B57;
+    font-weight: bold;
+    font-size: 30px;
+}
+.p3{
+    text-align: center;
+    color: #2E8B57;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 50px 0 50px;
+}
+#background-div {
+    background-image: url('360_F_367863869_tYibIxEubHFxMl33Ow38JAHYakAZGsNz.webp');
+    background-size: cover; /* Adjust size as needed */
+    background-position: center; /* Adjust position as needed */
+    background-repeat: no-repeat; /* Ensure it doesn't repeat */
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.child{
+    margin-top: 10%;
+    height: 20rem;
+    width: 30rem;
+    border: black solid 1px;
+    backdrop-filter: blur(4px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+.f{
+    padding-left: 8%;
+}
+#text-field{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    color: gray;
+}
+.btn2{
+    height: 50px;
+    width: 50px;
+    background-color: #059212;
+}
+.h1{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+#icon3{
+    font-size: 25px;
+    color: white;
+    padding-right: 30px;
+}
+.btn-logo1{
+    background-color: #059212;
+    border: none;
+    color: white;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+.btn-logo2{
+    background-color: #40A578;
+    border: none;
+    color: white;
+    height: 60px;
+    font-size: 25px;
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.b1{
+    margin-right: 10px;
+}
+.b2{
+    margin-left: 10px;
+}
+.container4{
+    margin: 0 25% 0 25%;
+}
+#DOWNLOAD{
+    background-color: aliceblue;
+}
+.heading5{
+    color:#059212;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin: 0 10px; 
+    cursor: pointer;
+}
+.small-container2{
+    display: inline-flex;
+    margin: 5% 0 0 0;
+}
+.p4{
+    display: block;
+    font-size: 20px;
+    color: #059212;
+    font-weight: bolder;
+}
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F6F5F2;
+}
+.div-icon{
+    padding: 5% 5% 0 0;
+}
+#icon{
+    cursor: pointer;
+}
+.p5{
+    font-size: 20px;
+    color: #059212;
+    padding-left: 7%;
+    padding-top: 2%;
+    font-weight: bold;
+}
+li:hover{
+    text-decoration: underline;
+    color: #973131;
+}
+.btn-logo2:hover{
+    background-color: #973131;
+}
+.btn-logo1:hover{
+    background-color: #973131;
+}
+
+
+
+
+
+
+
